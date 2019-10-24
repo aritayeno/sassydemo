@@ -40,7 +40,7 @@
   display: grid;
   place-items: center;
   ul {
-      background: rgba(255,0,0,.5);
+      background: rgba(255, 0, 102, 1);
       display: none;
       margin: 0;
       padding: 0;
@@ -58,7 +58,7 @@
       ul {
           display: block;
       }
-      background: red;
+      background: rgba(255, 0, 102, 1);
   }
 }
 

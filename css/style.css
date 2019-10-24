@@ -30,8 +30,10 @@ CSS TABLE OF CONTENTS
 --------------------------- */
 /* BODY */
 body {
-  font-family: "acumin-pro", Helvetica, arial, sans-serif;
+  font-family: "quiche-sans", Helvetica, arial, sans-serif;
   font-size: 100%;
+  font-weight: 400;
+  font-style: normal;
   line-height: 1.4;
   color: rgba(0, 0, 0, 0.85); }
 
@@ -39,7 +41,7 @@ body {
 h1,
 h2,
 h3 {
-  font-family: "kepler-std", georgia, serif;
+  font-family: "quiche-sans", Helvetica, arial, sans-serif;
   margin: 0.5em 0;
   font-weight: 400; }
 
@@ -74,7 +76,7 @@ hr {
 
 /* HELPER */
 .sectionhead {
-  font-family: "acumin-pro", Helvetica, arial, sans-serif;
+  font-family: "quiche-sans", Helvetica, arial, sans-serif;
   font-size: 1em;
   line-height: 1;
   text-transform: uppercase;
@@ -95,15 +97,18 @@ hr {
   margin-bottom: 0; }
 
 .subhead {
-  font-family: "acumin-pro", Helvetica, arial, sans-serif;
+  font-family: "quiche-sans", Helvetica, arial, sans-serif;
+  font-weight: 300;
+  font-style: italic;
   color: rgba(0, 0, 0, 0.5);
   margin-bottom: 1em; }
+
 
 /* BUTTONS */
 button,
 .button {
   font-size: inherit;
-  font-family: "acumin-pro", Helvetica, arial, sans-serif;
+  font-family: "quiche-sans", Helvetica, arial, sans-serif;
   text-decoration: none;
   line-height: 1;
   background-color: #ff0066;
@@ -246,7 +251,7 @@ body {
   -ms-flex-pack: justify;
   justify-content: space-between; }
   .site-header h1, .site-footer h1 {
-    font-family: "acumin-pro", Helvetica, arial, sans-serif;
+    font-family: "quiche-sans", Helvetica, arial, sans-serif;
     font-size: 1.5em;
     margin: .5em 0 0 0;
     /* to adjust baseline with nav text */ }
@@ -278,7 +283,7 @@ body {
   display: grid;
   place-items: center; }
   .site-nav ul {
-    background: rgba(255, 0, 0, 0.5);
+    background: #ff0066;
     display: none;
     margin: 0;
     padding: 0;
@@ -290,7 +295,7 @@ body {
     position: fixed;
     height: 100%;
     z-index: 100;
-    background: red; }
+    background: #ff0066; }
     .site-nav.active ul {
       display: block; }
 
